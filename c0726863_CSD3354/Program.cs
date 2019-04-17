@@ -25,6 +25,7 @@ namespace c0726863_CSD3354
 
                 ListQ = new ArrayList();
                 for (int i = 0; i < LEN; i++)
+
                 {
                     ListQ.Add(r.Next(100));
                     this.findTwoNumbersThatAddUpto(AddUpToNumber);
